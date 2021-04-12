@@ -1,0 +1,51 @@
+更新服务端
+cd /home/steam/steamcmd/			
+./csgo_server_update.sh
+启动服务端
+cd /home/steam/steamcmd/csgo_server/
+screen -S csgo
+默认27015端口 测试模式
+./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/  +map de_dust2 -authkey 96A5777E06A65437C703715931869702
+启动新工坊图
+./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/ +host_workshop_map 1764100551 -authkey 96A5777E06A65437C703715931869702
+ 
+connect 139.9.118.202:27001 休闲模式+game_type 0 +game_mode0
+connect 139.9.118.202:27002 竞技模式+game_type 0 +game_mode1
+connect 139.9.118.202:27003 军备竞赛+game_type 1 +game_mode0
+ 爆破模式+game_type 1 +game_mode1
+ 死亡竞赛+game_type 1 +game_mode2
+
+切换地图 changelevel
+加载工坊 host_workshop_map 1586641281  
+
+更新sm管理配置
+更新地图文件csgo_server/csgo/mapcycle.txt
+执行cfg文件 csgo_server/csgo/addons/sourcemod/configs/adminmenu_cfgs.txt
+
+基本
+刷新游戏 mp_restartgame 1
+队友伤害 mp_friendlyfire 1
+开启作弊 sv_cheats 1
+显示数值 net_graph 1
+跳过热身mp_warmup_end
+
+
+模式
+切换配置 exec sd.cfg
+死斗模式 mp_teammates_are_enemies 1
+
+出生
+出生冻结 mp_freezetime 0
+基地出生 mp_randomspawn 0 
+死后复活 mp_respawn_on_death_t 1
+               mp_respawn_on_death_ct 1
+
+购买
+时间15秒  mp_buytime 15
+任意地点    
+初始金钱   mp_startmoney 1000
+
+bot
+bot等级 bot_difficulty 5 1-5
+
+

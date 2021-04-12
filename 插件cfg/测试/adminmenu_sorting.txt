@@ -1,0 +1,111 @@
+/**
+ * The default sorting is designed to look familiar to Mani's admin menu.
+ * You may re-order items here for your own menu.  Any items not explicitly 
+ * sorted will be sorted by their final translated phrases for each given client.
+ */
+
+"Menu"
+{
+	"快捷模式选择"
+	{
+		"item"  "竞技模式"
+		"item"  "爆破模式"
+		"item"  "搭档模式"
+		"item"  "武器专家"
+		"item"  "军备竞赛"
+		"item"  "死亡竞赛"		
+		"item"  "休闲模式"
+		"item"  "头号特训"
+		"item"  "合作精英"	
+		"item"  "跳狙飞人(未开放)"
+		"item"  "守护模式(未开放)"
+	}
+	"只切换地图/模式"
+	{
+		"item"  "切换地图"
+		"item"  "切换模式"	
+	}
+	"工坊地图"
+	{	
+		"item"  "躲猫猫合集"
+		"item"  "aim_map_c"
+		"item"  "awp_lego_h347mirror"
+		"item"  "我的世界1"
+		"item"  "pekkers_checkers"
+		"item"  "海绵宝宝"
+		"item"  "泳池"
+		"item"  "骑马"
+
+	}
+	"机器人控制"
+	{
+		"item"  "增加1个bot"
+		"item"  "设置bot总数"
+		"item"  "bot难度"
+		"item"  "踢掉所有bot"
+		"item"  "杀掉所有bot"
+		"item"  "bot冻结"
+		"item"  "bot通讯方式"
+		"item"  "刀/手枪/狙击"
+		"item"  "细化武器权限"
+		"item"  "允许所有武器"	
+	}
+	"玩家个人参数"
+	{
+		"item"  "改名"	
+		"item"  "天上掉枪"
+		"item"	"重生"
+		"item"  "无敌"
+		"item"  "解除武装"
+		"item"  "拆弹器"
+		"item"  "夜间视力"
+		"item"  "移动速度"
+		"item"  "护甲值"
+		"item"  "头盔"
+		"item"  "生命值"
+	}
+	"服务器整体参数"
+	{
+		"item"  "回合时间"
+		"item"  "1秒后重开"
+		"item"  "跳过热身时间"
+		"item"  "无限子弹"
+		"item"  "购买时间"
+		"item"  "任意地点购买"
+		"item"  "冻结时间"
+		"item"  "自动团队平衡"
+		"item"  "重力"
+		"item"  "队友伤害"
+		"item"  "队友是否为敌"
+		"item"  "个人换队伍"
+		"item"  "团体换队伍"
+	}
+	"VotingCommands"
+	{
+		"item"		"sm_cancelvote"
+		"item"		"sm_votemap"
+		"item"		"sm_votekick"
+		"item"		"sm_voteban"
+	}
+	"PlayerCommands"
+	{
+		"item"  "sm_slay"
+		"item"  "sm_slap"
+		"item"  "sm_kick"
+		"item"  "sm_ban"
+		"item"  "sm_gag"
+		"item"  "sm_burn"		
+		"item"  "sm_beacon"
+		"item"  "sm_freeze"
+		"item"  "sm_timebomb"
+		"item"  "sm_firebomb"
+		"item"  "sm_freezebomb"
+	}
+	"ServerCommands"
+	{
+		"item"  "sm_map"
+		"item"  "sm_execcfg"
+		"item"  "sm_reloadadmins"
+	}
+}
+
