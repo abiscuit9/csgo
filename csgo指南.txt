@@ -5,9 +5,9 @@ cd /home/steam/steamcmd/
 cd /home/steam/steamcmd/csgo_server/
 screen -S csgo
 默认27015端口 测试模式
-./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/  +map de_dust2 -authkey 96A5777E06A65437C703715931869702
+./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/  +map de_dust2 -authkey xxx
 启动新工坊图
-./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/ +host_workshop_map 1764100551 -authkey 96A5777E06A65437C703715931869702
+./srcds_run -game csgo -console -usercon -tickrate 128 -port 27015 -steamcmd_script /home/steam/steamcmd/update.txt -steam_dir /home/steam/ +host_workshop_map 1764100551 -authkey xxx
  
 connect 139.9.118.202:27001 休闲模式+game_type 0 +game_mode0
 connect 139.9.118.202:27002 竞技模式+game_type 0 +game_mode1
